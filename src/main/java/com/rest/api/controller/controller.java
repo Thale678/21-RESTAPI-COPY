@@ -11,7 +11,7 @@ public class controller {
 	@GetMapping("/test")
 	public String hello() {
 
-		return "Hello,Todays Date  is " + LocalDate.now().toString() + "\n Its my first jenkins pipeline";
+		return "Hello guys,Todays Date  is " + LocalDate.now().toString() + "\n Its my first jenkins pipeline";
 
 	}
 
